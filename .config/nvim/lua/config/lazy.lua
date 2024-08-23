@@ -24,7 +24,7 @@ vim.g.maplocalleader = "\\"
 -- Setup lazy.nvim
 require("lazy").setup({
   spec = {
-    require("plugins.luasnip"),	  
+
     require("plugins.lualine"),
     require("plugins.neotree"),
     require("plugins.gruvbox"),

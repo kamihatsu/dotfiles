@@ -8,7 +8,7 @@ set $mod Mod4
 # workspace_layout tabbed <stacking|tabbed>
 
 # Configure border style <normal|1pixel|pixel xx|none|pixel>
-default_border pixel 1
+default_border pixel 5
 default_floating_border normal
 title_align center
 
@@ -321,17 +321,17 @@ set_from_resource $term_color15    color15
 
 # Theme colors
 # class                   border  backgr. text    indic.   child_border
-client.focused          #b8bb26 #b8bb26 #ebdbb2 #b8bb26 #b8bb26
-client.focused_inactive #282828 #282828 #ebdbb2 #282828 #282828
-client.unfocused        #282828 #282828 #ebdbb2 #282828 #282828
-client.urgent           #282828 #282828 #fb4934 #282828 #282828
-client.placeholder      #282828 #282828 #ebdbb2 #282828 #282828
+client.focused          #3c3836 #b8bb26 #ebdbb2 #b8bb26 #b8bb26
+client.focused_inactive #3c3836 #282828 #ebdbb2 #282828 #282828
+client.unfocused        #3c3836 #282828 #ebdbb2 #282828 #282828
+client.urgent           #3c3836 #282828 #fb4934 #282828 #282828
+client.placeholder      #3c3836 #282828 #ebdbb2 #282828 #282828
 ### settings for i3-gaps: ###
 #############################
 
 # Set inner/outer gaps
-gaps inner 19
-gaps outer 8
+gaps inner 15
+gaps outer 5
 
 # Additionally, you can issue commands with the following syntax. This is useful to bind keys to changing the gap size.
 # gaps inner|outer current|all set|plus|minus <px>
