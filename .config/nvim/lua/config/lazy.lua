@@ -24,8 +24,11 @@ vim.g.maplocalleader = "\\"
 -- Setup lazy.nvim
 require("lazy").setup({
   spec = {
-    {"ellisonleao/gruvbox.nvim"},
-    { import = "plugins" },
+    require("plugins.luasnip"),	  
+    require("plugins.lualine"),
+    require("plugins.neotree"),
+    require("plugins.gruvbox"),
+
   },
   -- Configure any other settings here. See the documentation for more details.
   -- colorscheme that will be used when installing plugins.
